@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stopwatch1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baseline_access_alarms_24"
+            ></ImageView>
+        <EditText
+            android:id="@+id/edit_text_input"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_view_countdown"
+            android:layout_centerHorizontal="true"
+            android:hint="Minutes"
+            android:inputType="number"
+            android:maxLength="4" />
+
+        <Button
+            android:id="@+id/button_set"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginBottom="35dp"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@color/bgcolor"
+
+            android:backgroundTint="@color/buttonbg"
+            android:layout_alignTop="@+id/edit_text_input"
+            android:layout_toEndOf="@+id/edit_text_input"
+            android:text="Set" />
+
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="00:00"
+            android:textColor="@android:color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_start_pause"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginBottom="35dp"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@color/bgcolor"
+
+            android:backgroundTint="@color/buttonbg"
+
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_centerHorizontal="true"
+            android:text="start" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginBottom="35dp"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold"
+            android:textColor="@color/bgcolor"
+
+            android:backgroundTint="@color/buttonbg"
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/button_start_pause"
+            android:text="reset"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

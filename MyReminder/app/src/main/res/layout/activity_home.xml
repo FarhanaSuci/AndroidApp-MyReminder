@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are Successfully \nRegistered!!"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="30dp"
+        />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/register2" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginBottom="35dp"
+
+                android:textSize="20sp"
+                android:text="Sign in"
+                android:layout_marginTop="60dp"
+                android:textStyle="bold"
+
+                tools:ignore="InvalidId"
+                android:textColor="@color/bgcolor"
+                android:backgroundTint="@color/buttonbg"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

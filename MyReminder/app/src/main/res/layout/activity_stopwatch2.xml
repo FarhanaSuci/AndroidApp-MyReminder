@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".stopwatch2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_access_alarms_24"
+        ></ImageView>
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_00_00"
+        android:textColor="@color/bgcolor"
+        android:textSize="60sp"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+
+
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:textColor="@color/bgcolor"
+
+        android:backgroundTint="@color/buttonbg"
+
+
+        android:layout_below="@+id/text_view_countdown"
+
+
+        android:onClick="startChronometer"
+        android:text="Start"
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+
+
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:textColor="@color/bgcolor"
+
+        android:backgroundTint="@color/buttonbg"
+
+
+        android:layout_below="@+id/text_view_countdown"
+        android:layout_centerHorizontal="true"
+
+
+        android:onClick="pauseChronometer"
+        android:text="Pause" />
+
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+
+
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:textColor="@color/bgcolor"
+
+        android:backgroundTint="@color/buttonbg"
+
+
+        android:layout_below="@+id/text_view_countdown"
+        android:layout_centerHorizontal="true"
+
+
+        android:onClick="resetChronometer"
+        android:text="Reset"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taskbg"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".TaskReminderSplash">
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="140dp"
+        android:gravity="center"
+        android:text="Task\n Reminder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tasksplash3" />
+    <ProgressBar
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_width="82dp"
+        android:layout_height="50dp"
+        android:indeterminateTint="@color/lightblue"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+
+
+</LinearLayout>

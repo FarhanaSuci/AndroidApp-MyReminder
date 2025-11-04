@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Reminder"
+                android:textSize="30sp"
+                android:textColor="@color/bgcolor"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/register2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Timer:Set,Start,Reset,Pause.\n\n2.Stopwatch:Start,Pause,Reset.\n\n3.ToDo:using plus right sign an end user can add new task,here is checkbox to mark any task.By left swiping on an exiting task ,an end user can delete his/her existing task.By right swiping ,can edit task.\n\n4.Task Reminder:By pressing any date on calender view, and user can add event with time and notification.By long time clicking on any date,an end user can see his/her event on a particular date.Here is also delete and notification on/off options.\n\n5.My Diary:By clicking on plus icon,an end user can add diary.Clicking on an existing diary, an end user can read full diary,edit diary and delete diary.\n\n6.Exit:By clicking on exit, an end user can exit from My Reminder app."
+                android:textSize="20sp"
+                android:textColor="@color/bgcolor"
+                android:textStyle="normal"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="30dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

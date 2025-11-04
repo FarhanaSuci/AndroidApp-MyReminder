@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!--<style name="DialogStyle" parent="Animation.Design.BottomSheetDialog">-->
+    <style name="DialogStyle" parent="Theme.Design.BottomSheetDialog">
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+
+
+
+    </style>
+    <style name="DialogDesign" parent="android:Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="colorAccent">@color/lightblue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+
+
+
+    </style>
+
+
+
+
+</resources>
