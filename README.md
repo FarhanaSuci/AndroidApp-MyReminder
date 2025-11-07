@@ -30,44 +30,64 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 - Set time-based reminders.  
 - Improve productivity through time discipline.
 - ![Timer](TimerHome.jpg)
-- ![Timer](Timer.jpg)
+
 
 
 ### ⏱️ 2. Stopwatch  
 - Measure the duration of activities accurately.  
 - Perfect for workouts, study sessions, and time-bound challenges.
-- ![StopWatch](StopWatch.jpg)
 - ![StopWatch](StopwatchHome.jpg)
 
 ### 📝 3. To-Do List  
 - Add, edit, and delete tasks easily.  
 - Mark completed tasks to stay motivated.  
-- Keep daily priorities organized.  
+- Keep daily priorities organized.
+-  ![ToDoList](To-DoList.jpg)
 
 ### 💰 4. My Expense Tracker  
 - Manage income and expenses effectively.  
 - Categorize spending for better financial control.  
-- View daily, weekly, or monthly summaries.  
+- View daily, weekly, or monthly summaries.
+-  ![My Expense Tracker](ExpenseTracker.jpg)  
 
 ### 🔔 5. Task Reminder  
 - Get notifications for upcoming tasks.  
 - Customize reminders by time and date.  
-- Stay consistent with personal and professional schedules.  
+- Stay consistent with personal and professional schedules.
+-  ![Task](TaskReminder_Alert.jpg)  
 
 ### 📍 6. Location Reminder  
 - Set reminders based on specific locations.  
 - Example: “Buy groceries when near the supermarket.”  
 - Uses GPS for smart, location-aware alerts.  
-
+-  ![Location Reminder](LocationReminder.jpg)
+  
 ### 🛰️ 7. GPS Tracking System  
 - Track real-time user location safely.  
 - Supports location-based reminders and insights.  
 - Integrated with **Google Maps API**.  
-
+-  ![GPS Tracking](GPSTracking.jpg)
+  
 ### 🗒️ 8. Notepad  
 - Quickly write and save notes anytime.  
 - Ideal for jotting down ideas, reminders, or thoughts.  
+-  ![Notepad](NotepadPage.jpg)
 
+### 🗒️ 9. Navigation   
+-  ![Notepad](Navigation.jpg)
+
+### 🗒️ 9. Register  
+-  ![Register Page](RegisterPage.jpg)
+## 🗒️ 9. Login   
+-  ![Login Page](Android_loginPage.jpg)
+## 🗒️ 9. Forgot Password   
+-  ![ForgotPassword Page](ForgotPassword.jpg)
+
+## 🗒️ 9. HomePage
+-  ![HomePage](Android_HomePage.jpg)
+
+## 🗒️ 9. DashBoard   
+-  ![DashBoardPage](DashBoard.jpg)
 ---
 
 ## 🛠️ Tools & Technologies  
