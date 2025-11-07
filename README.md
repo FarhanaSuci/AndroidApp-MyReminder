@@ -24,8 +24,23 @@ The app integrates multiple tools like a reminder system, expense tracker, GPS t
 ---
 
 ## 🚀 Features  
+##  1. HomePage
+-  ![HomePage](Android_HomePage.jpg)
+###  2. Register  
+-  ![Register Page](RegisterPage.jpg)
+##  3. Login   
+-  ![Login Page](Androd_loginPage.jpg)
+##  4. Forgot Password   
+-  ![ForgotPassword Page](ForgotPassword.jpg)
 
-### 🕒 1. Timer  
+### 5. Navigation   
+-  ![Notepad](Navigation.jpg)
+
+
+## 6. DashBoard   
+-  ![DashBoardPage](DashBoard.jpg)
+
+### 7. Timer  
 - Track time for specific tasks or short activities (e.g., cooking, studying, exercising).  
 - Set time-based reminders.  
 - Improve productivity through time discipline.
@@ -33,66 +48,52 @@ The app integrates multiple tools like a reminder system, expense tracker, GPS t
 
 
 
-### ⏱️ 2. Stopwatch  
+### 8. Stopwatch  
 - Measure the duration of activities accurately.  
 - Perfect for workouts, study sessions, and time-bound challenges.
 - ![StopWatch](StopwatchHome.jpg)
 
-### 📝 3. To-Do List  
+### 9. To-Do List  
 - Add, edit, and delete tasks easily.  
 - Mark completed tasks to stay motivated.  
 - Keep daily priorities organized.
 -  ![ToDoList](To-DoList.jpg)
 
-### 💰 4. My Expense Tracker  
+### 10. My Expense Tracker  
 - Manage income and expenses effectively.  
 - Categorize spending for better financial control.  
 - View daily, weekly, or monthly summaries.
 -  ![My Expense Tracker](ExpenseTracker.jpg)  
 
-### 🔔 5. Task Reminder  
+### 11. Task Reminder  
 - Get notifications for upcoming tasks.  
 - Customize reminders by time and date.  
 - Stay consistent with personal and professional schedules.
 -  ![Task](TaskReminder_Alert.jpg)  
 
-### 📍 6. Location Reminder  
+### 12. Location Reminder  
 - Set reminders based on specific locations.  
 - Example: “Buy groceries when near the supermarket.”  
 - Uses GPS for smart, location-aware alerts.  
 -  ![Location Reminder](LocationReminder.jpg)
   
-### 🛰️ 7. GPS Tracking System  
+###  13. GPS Tracking System  
 - Track real-time user location safely.  
 - Supports location-based reminders and insights.  
 - Integrated with **Google Maps API**.  
 -  ![GPS Tracking](GPSTracking.jpg)
   
-### 🗒️ 8. Notepad  
+###  14. Notepad  
 - Quickly write and save notes anytime.  
 - Ideal for jotting down ideas, reminders, or thoughts.  
 -  ![Notepad](NotePadPage.jpg)
 
-### 🗒️ 9. Navigation   
--  ![Notepad](Navigation.jpg)
 
-### 🗒️ 9. Register  
--  ![Register Page](RegisterPage.jpg)
-## 🗒️ 9. Login   
--  ![Login Page](Androd_loginPage.jpg)
-## 🗒️ 9. Forgot Password   
--  ![ForgotPassword Page](ForgotPassword.jpg)
-
-## 🗒️ 9. HomePage
--  ![HomePage](Android_HomePage.jpg)
-
-## 🗒️ 9. DashBoard   
--  ![DashBoardPage](DashBoard.jpg)
 ---
 
 ## 🛠️ Tools & Technologies  
 
-### 🖥️ Software Requirements  
+###  Software Requirements  
 | Component | Technology |
 |------------|-------------|
 | **Frontend** | Android Studio (XML) |
@@ -101,7 +102,7 @@ The app integrates multiple tools like a reminder system, expense tracker, GPS t
 | **API Keys** | Google Maps API |
 | **Operating System** | Android OS |
 
-### 💻 Hardware Requirements  
+###  Hardware Requirements  
 | Component | Specification |
 |------------|---------------|
 | **CPU Architecture** | ARM / ARM64 |
