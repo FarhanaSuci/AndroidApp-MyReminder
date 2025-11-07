@@ -112,6 +112,7 @@ The app integrates multiple tools like a reminder system, expense tracker, GPS t
 ## 🧭 Project Architecture  
 ![Project Architecture](UserActivityDiagram.png)
 ![Project Architecture](DataFlowDiagram.png)
+---
 
 
 ## To explore full project , please check the Project Video
