@@ -19,7 +19,7 @@ Our young generation, in particular, faces several challenges such as:
 
 ## 💡 Solution  
 To solve these problems, we developed **“My Reminder”**, an Android app that helps users plan, track, and organize their daily lives.  
-The app integrates multiple tools like a reminder system, expense tracker, and task manager — helping users become more productive and disciplined.
+The app integrates multiple tools like a reminder system, expense tracker, GPS tracking and task manager — helping users become more productive and disciplined.
 
 ---
 
