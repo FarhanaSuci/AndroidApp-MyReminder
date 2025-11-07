@@ -29,8 +29,8 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 - Track time for specific tasks or short activities (e.g., cooking, studying, exercising).  
 - Set time-based reminders.  
 - Improve productivity through time discipline.
-  ![Timer](TimerHome.jpg)
-  ![Timer](Timer.jpg)
+- ![Timer](TimerHome.jpg)
+- ![Timer](Timer.jpg)
 
 
 ### ⏱️ 2. Stopwatch  
