@@ -71,7 +71,7 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 ### 🗒️ 8. Notepad  
 - Quickly write and save notes anytime.  
 - Ideal for jotting down ideas, reminders, or thoughts.  
--  ![Notepad](NotepadPage.jpg)
+-  ![Notepad](NotePadPage.jpg)
 
 ### 🗒️ 9. Navigation   
 -  ![Notepad](Navigation.jpg)
@@ -79,7 +79,7 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 ### 🗒️ 9. Register  
 -  ![Register Page](RegisterPage.jpg)
 ## 🗒️ 9. Login   
--  ![Login Page](Android_loginPage.jpg)
+-  ![Login Page](Androd_loginPage.jpg)
 ## 🗒️ 9. Forgot Password   
 -  ![ForgotPassword Page](ForgotPassword.jpg)
 
@@ -110,14 +110,11 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 ---
 
 ## 🧭 Project Architecture  
-![Project Architecture](ProjectArchitecture.png)
-
+![Project Architecture](UserActivityDiagram.png)
+![Project Architecture](DataFlowDiagram.png)
+![Project Architecture](ER-Diagram.png)
 ---
 
-## 🎥 Demo Video  
-🎬 Watch the demo video here:  
-[▶️ Project Video](Project-Video.mp4)
 
-> *If the video doesn’t play directly on GitHub, download and open locally.*
 
 ---
