@@ -35,7 +35,9 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 
 ### ⏱️ 2. Stopwatch  
 - Measure the duration of activities accurately.  
-- Perfect for workouts, study sessions, and time-bound challenges.  
+- Perfect for workouts, study sessions, and time-bound challenges.
+- ![StopWatch](StopWatch.jpg)
+- ![StopWatch](StopwatchHome.jpg)
 
 ### 📝 3. To-Do List  
 - Add, edit, and delete tasks easily.  
