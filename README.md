@@ -30,6 +30,7 @@ The app integrates multiple tools like a reminder system, expense tracker, and t
 - Set time-based reminders.  
 - Improve productivity through time discipline.
   ![Timer](TimerHome.jpg)
+  ![Timer](Timer.jpg)
 
 
 ### ⏱️ 2. Stopwatch  
